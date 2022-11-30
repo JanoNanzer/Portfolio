@@ -1,0 +1,77 @@
+@font-face {
+  font-family: "AlleynW01-Regular";
+  src: url("https://db.onlinewebfonts.com/t/faa9c8362473bf8b1d2886cfb5962735.eot");
+  src: url("https://db.onlinewebfonts.com/t/faa9c8362473bf8b1d2886cfb5962735.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/faa9c8362473bf8b1d2886cfb5962735.woff2")
+      format("woff2"),
+    url("https://db.onlinewebfonts.com/t/faa9c8362473bf8b1d2886cfb5962735.woff")
+      format("woff"),
+    url("https://db.onlinewebfonts.com/t/faa9c8362473bf8b1d2886cfb5962735.ttf")
+      format("truetype"),
+    url("https://db.onlinewebfonts.com/t/faa9c8362473bf8b1d2886cfb5962735.svg#AlleynW01-Regular")
+      format("svg");
+}
+
+body {
+  background-image: linear-gradient(
+    0deg,
+    hsl(205deg 55% 42%) 0%,
+    hsl(207deg 58% 40%) 4%,
+    hsl(210deg 63% 37%) 9%,
+    hsl(213deg 69% 35%) 15%,
+    hsl(216deg 80% 32%) 21%,
+    hsl(215deg 98% 27%) 28%,
+    hsl(215deg 96% 25%) 35%,
+    hsl(214deg 94% 23%) 42%,
+    hsl(212deg 91% 20%) 49%,
+    hsl(208deg 88% 16%) 56%,
+    hsl(210deg 89% 16%) 63%,
+    hsl(213deg 91% 15%) 70%,
+    hsl(216deg 93% 15%) 76%,
+    hsl(220deg 96% 15%) 82%,
+    hsl(220deg 98% 14%) 87%,
+    hsl(218deg 97% 13%) 91%,
+    hsl(215deg 95% 13%) 95%,
+    hsl(211deg 94% 12%) 98%,
+    hsl(206deg 93% 11%) 100%
+  );
+  font-family: AlleynW01-Regular;
+}
+
+/* background-image: linear-gradient( 99deg,  rgba(115,18,81,1) 10.6%, rgba(28,28,28,1) 118% ); */
+
+/* background-image: linear-gradient( 109.6deg,  rgba(15,2,2,1) 11.2%, rgba(36,163,190,1) 91.1% ); */
+
+.homeOuter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.introduce {
+  display: flex;
+  flex-direction: column;
+  color: #ff7f50;
+  align-items: center;
+}
+
+.iconsColors {
+  color: coral;
+}
+
+.iconsColors:hover {
+  color: rgb(255, 230, 221);
+  transition: color 0.3s;
+}
+
+.fatherOuter {
+  /* padding-top: 8%; */
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}

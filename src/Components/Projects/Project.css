@@ -1,0 +1,16 @@
+.projectsCards{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.projectsTitle{
+    color: coral;
+    font-size: 6vh;
+    width: 80%;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 12vh;
+    margin-bottom: 5vh;
+}

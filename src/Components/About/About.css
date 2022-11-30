@@ -1,0 +1,15 @@
+.aboutContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.aboutMe{
+    color: coral;
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    justify-content: space-evenly;
+    font-size: 110%;
+}

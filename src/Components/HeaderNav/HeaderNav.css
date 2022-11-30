@@ -1,0 +1,57 @@
+.blink {
+  animation: blink-animation 1s steps(5, start) infinite;
+  -webkit-animation: blink-animation 1s steps(5, start) infinite;
+}
+
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  background-color: #8c00ff00;
+  position: sticky;
+  z-index: 1;
+  width: 100%;
+  align-items: center;
+  height: 8%;
+  backdrop-filter: blur(8px);
+  top: 0;
+}
+
+.myName {
+  display: flex;
+  margin-left: 12vh;
+  color: coral;
+}
+
+.tags {
+  display: flex;
+  flex-direction: row;
+  width: 40%;
+  justify-content: space-evenly;
+  font-size: 20px;
+  margin-right: 5vh;
+  /* font-weight: 600; */
+}
+
+.menues {
+  text-decoration: none;
+  color: coral;
+}
+
+.menues:hover {
+  text-decoration: none;
+  color: rgb(255, 230, 221);
+  transition: color 0.3s;
+}
