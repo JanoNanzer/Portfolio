@@ -1,0 +1,32 @@
+.contactWays {
+  display: flex;
+  flex-direction: column;
+  height: 70vh;
+  width: 40%;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  color: coral;
+  margin-left: 3%;
+  font-size: 3vh;
+}
+
+.contactDetail {
+  color: white;
+  text-decoration: none;
+}
+
+.eachContact {
+  height: 8%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 30%;
+}
+
+.contactItemsContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+}

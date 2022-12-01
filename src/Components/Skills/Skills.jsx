@@ -21,7 +21,7 @@ import express1 from "../../Assets/Icons/express2.png";
 
 export default function Skills() {
   return (
-    <div id="skills">
+    <div id="skills" style={{height: "180vh", paddingTop: "6%"}}>
       <span className="projectsTitle">Skills</span>
       <div className="skillsContainer">
         {/* ////////////// 
