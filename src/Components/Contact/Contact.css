@@ -15,6 +15,10 @@
   text-decoration: none;
 }
 
+.contactDetail:hover {
+  color: #1e90ff;
+}
+
 .eachContact {
   height: 8%;
   display: flex;

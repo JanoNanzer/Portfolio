@@ -11,7 +11,7 @@ import contact2 from "../../Assets/Contact/contact2.svg";
 
 const Contact = () => {
   return (
-    <div id="contact" style={{ height: "90vh", paddingTop: "5%" }}>
+    <div id="contact" style={{ height: "82vh", paddingTop: "5%" }}>
       <span className="projectsTitle">Contact me</span>
       <div className="contactItemsContainer">
         <div className="contactWays">

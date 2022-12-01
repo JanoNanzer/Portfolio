@@ -12,21 +12,29 @@ import img from "./home.png";
 
 export default function PI() {
   return (
-    <Card sx={{ maxWidth: 345, backgroundColor: "#00000063", color:"white"  }}>
-        <CardHeader title="Pokemon API"/>
+    <Card sx={{ maxWidth: 345, backgroundColor: "#00000063", color: "white" }}>
+      <CardHeader title="Pokemon API" />
       <CardMedia component="img" alt="Home Page" height="140" image={img} />
       <CardContent>
         <Typography variant="body2" color="white">
-          Lizards are a widespread group of squamate reptiles, with over 6,000
-          species, ranging across all continents except Antarctica
+          I development of a SPA (Single-page application) with Pokemon theme,
+          which consumes an API for existing information avout it as well as the creation of
+          new Pokemons that were stored in a database, it also allowes filtering and
+          ordering for a more efficient search.
         </Typography>
       </CardContent>
       <CardActions>
-        <IconButton href="https://pi-pokemon-main-client-2ur8.vercel.app/home" target="_blank">
-          <LanguageIcon sx={{color:"white"}}/>
+        <IconButton
+          href="https://pi-pokemon-main-client-2ur8.vercel.app/home"
+          target="_blank"
+        >
+          <LanguageIcon sx={{ color: "white" }} />
         </IconButton>
-        <IconButton href="https://github.com/JanoNanzer/Pi-Pokemon-main" target="_blank">
-          <GitHubIcon sx={{color:"white"}}/>
+        <IconButton
+          href="https://github.com/JanoNanzer/Pi-Pokemon-main"
+          target="_blank"
+        >
+          <GitHubIcon sx={{ color: "white" }} />
         </IconButton>
       </CardActions>
     </Card>

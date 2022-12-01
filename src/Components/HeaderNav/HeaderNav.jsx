@@ -14,7 +14,7 @@ const HeaderNav = () => {
         <a className="menues" href="#about">About</a>
         <a className="menues" href="#projects">Projects</a>
         <a className="menues" href="#skills">Skills</a>
-        <a className="menues" href="#resume">Resume</a>
+        <a className="menues" href="#resume">Resumee</a>
         <a className="menues" href="#contact">Contact</a>
       </div>
     </div>

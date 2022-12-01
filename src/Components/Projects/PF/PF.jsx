@@ -10,28 +10,30 @@ import LanguageIcon from "@mui/icons-material/Language";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import img from "./home.jpeg";
 
-
-
 export default function PF() {
   return (
-    <Card sx={{ maxWidth: 345 , backgroundColor: "#00000063", color:"white" }}>
-        <CardHeader title="Mi Scusi Books"/>
+    <Card sx={{ maxWidth: 345, backgroundColor: "#00000063", color: "white" }}>
+      <CardHeader title="Mi Scusi Books" />
       <CardMedia component="img" alt="Home Page" height="140" image={img} />
       <CardContent>
         {/* <Typography gutterBottom variant="h5" component="div">
           Lizard
         </Typography> */}
         <Typography variant="body2" color="white">
-          Lizards are a widespread group of squamate reptiles, with over 6,000
-          species, ranging across all continents except Antarctica
+          Group academic experience consisting of 4 weeks of work under the SCRUM
+          methodology, developing an ecommerce of books. My rol was as a
+          fullstack developer but focused mainly on admin panel development and front end components.
         </Typography>
       </CardContent>
       <CardActions>
         <IconButton href="https://mi-scusi-books.vercel.app/" target="_blank">
-          <LanguageIcon sx={{color:"white"}} />
+          <LanguageIcon sx={{ color: "white" }} />
         </IconButton>
-        <IconButton href="https://github.com/AlejandroGCorzo/Mi-Scusi-Books" target="_blank">
-          <GitHubIcon sx={{color:"white"}} />
+        <IconButton
+          href="https://github.com/AlejandroGCorzo/Mi-Scusi-Books"
+          target="_blank"
+        >
+          <GitHubIcon sx={{ color: "white" }} />
         </IconButton>
       </CardActions>
     </Card>

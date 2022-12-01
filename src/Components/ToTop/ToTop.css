@@ -1,0 +1,14 @@
+.arrowButton {
+  display: block;
+  position: fixed;
+  bottom: 20px;
+  right: 50px;
+}
+
+.arrowIcon {
+  cursor: pointer;
+}
+
+.arrowIcon:hover {
+  color: coral;
+}

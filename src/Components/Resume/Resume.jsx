@@ -9,7 +9,7 @@ const Resume = () => {
   return (
     <div id="resume" style={{ paddingTop: "5%" }}>
       <div className="projectsTitle">
-        <span>My Resume</span>
+        <span>My Resumee</span>
       </div>
       <object
         width="65%"

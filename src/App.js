@@ -1,5 +1,5 @@
 import "./App.css";
-import { Route } from "react-router-dom";
+// import { Route } from "react-router-dom";
 import { BrowserRouter } from "react-router-dom";
 import React from "react";
 import Home from "./Components/Home/Home";
@@ -9,7 +9,9 @@ import Projects from "./Components/Projects/Projects";
 import Skills from "./Components/Skills/Skills";
 import Resume from "./Components/Resume/Resume";
 import Contact from "./Components/Contact/Contact";
-import Particle from "./Components/Particle/Particle";
+// import Particle from "./Components/Particle/Particle";
+import ToTop from "./Components/ToTop/ToTop";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
   return (
@@ -25,6 +27,8 @@ function App() {
           <Skills />
           <Resume />
           <Contact />
+          <ToTop/>
+          <Footer/>
       </BrowserRouter>
     </div>
   );
