@@ -21,7 +21,7 @@ import express1 from "../../Assets/Icons/express2.png";
 
 export default function Skills() {
   return (
-    <div id="skills" style={{height: "180vh", paddingTop: "6%"}}>
+    <div id="skills" style={{height: "110vh", paddingTop: "6%"}}>
       <span className="projectsTitle">Skills</span>
       <div className="skillsContainer">
         {/* ////////////// 
@@ -38,17 +38,17 @@ export default function Skills() {
               target="blank"
             >
               <div>
-                <img src={js} alt="javascript" width={100} />
-                <span>JavaScript</span>
+                <img src={js} alt="javascript" style={{width:"8vh"}}/>
+                <span className="skillsTitle">JavaScript</span>
               </div>
             </a>
             <div className="eachSkills">
-              <img src={css} alt="css" width={100} />
-              <span>CSS</span>
+              <img src={css} alt="css" style={{width:"8vh"}} />
+              <span className="skillsTitle">CSS</span>
             </div>
             <div className="eachSkills">
-              <img src={html} alt="html" width={100} />
-              <span>HTML</span>
+              <img src={html} alt="html" style={{width:"8vh"}} />
+              <span className="skillsTitle">HTML</span>
             </div>
           </div>
         </div>
@@ -61,20 +61,20 @@ export default function Skills() {
           </div>
           <div className="scriptingSkills">
             <div className="eachSkills">
-              <img src={node} alt="node" width={100} />
-              <span>NodeJs</span>
+              <img src={node} alt="node" style={{width:"8vh"}} />
+              <span className="skillsTitle">NodeJs</span>
             </div>
             <div className="eachSkills">
-              <img src={express1} alt="express" width={100} />
-              <span>ExpressJs</span>
+              <img src={express1} alt="express" style={{width:"8vh"}} />
+              <span className="skillsTitle">ExpressJs</span>
             </div>
             <div className="eachSkills">
-              <img src={postgre} alt="postgre" width={100} />
-              <span>PosgreSQL</span>
+              <img src={postgre} alt="postgre" style={{width:"8vh"}} />
+              <span className="skillsTitle">PosgreSQL</span>
             </div>
             <div className="eachSkills">
-              <img src={mongo} alt="mongodb" width={100} />
-              <span>MongoDB</span>
+              <img src={mongo} alt="mongodb" style={{width:"8vh"}} />
+              <span className="skillsTitle">MongoDB</span>
             </div>
           </div>
         </div>
@@ -87,12 +87,12 @@ export default function Skills() {
           </div>
           <div className="scriptingSkills">
             <div className="eachSkills">
-              <img src={react} alt="react" width={100} />
-              <span>React</span>
+              <img src={react} alt="react" style={{width:"8vh"}} />
+              <span className="skillsTitle">React</span>
             </div>
             <div className="eachSkills">
-              <img src={redux} alt="redux" width={100} />
-              <span>Redux</span>
+              <img src={redux} alt="redux" style={{width:"8vh"}} />
+              <span className="skillsTitle">Redux</span>
             </div>
           </div>
         </div>
@@ -105,12 +105,12 @@ export default function Skills() {
           </div>
           <div className="scriptingSkills">
             <div className="eachSkills">
-              <img src={mui} alt="mui" width={100} />
-              <span>Material UI</span>
+              <img src={mui} alt="mui" style={{width:"8vh"}} />
+              <span className="skillsTitle">Material UI</span>
             </div>
             <div className="eachSkills">
-              <img src={antd} alt="antd" width={100} />
-              <span>ANT Design</span>
+              <img src={antd} alt="antd" style={{width:"8vh"}} />
+              <span className="skillsTitle">ANT Design</span>
             </div>
           </div>
         </div>
@@ -123,12 +123,12 @@ export default function Skills() {
           </div>
           <div className="scriptingSkills">
             <div className="eachSkills">
-              <img src={scrum} alt="scrum" width={100} />
-              <span>Scrum</span>
+              <img src={scrum} alt="scrum" style={{width:"8vh"}} />
+              <span className="skillsTitle">Scrum</span>
             </div>
             <div className="eachSkills">
-              <img src={trello} alt="trello" width={100} />
-              <span>Trello</span>
+              <img src={trello} alt="trello" style={{width:"8vh"}} />
+              <span className="skillsTitle">Trello</span>
             </div>
           </div>
         </div>
@@ -141,12 +141,12 @@ export default function Skills() {
           </div>
           <div className="scriptingSkills">
             <div className="eachSkills">
-              <img src={heroku} alt="heroku" width={100} />
-              <span>Heroku</span>
+              <img src={heroku} alt="heroku" style={{width:"8vh"}} />
+              <span className="skillsTitle">Heroku</span>
             </div>
             <div className="eachSkills">
-              <img src={vercel} alt="vercel" width={100} />
-              <span>Vercel</span>
+              <img src={vercel} alt="vercel" style={{width:"8vh"}} />
+              <span className="skillsTitle">Vercel</span>
             </div>
           </div>
         </div>
@@ -159,12 +159,12 @@ export default function Skills() {
           </div>
           <div className="scriptingSkills">
             <div className="eachSkills">
-              <img src={github} alt="github" width={100} />
-              <span>Github</span>
+              <img src={github} alt="github" style={{width:"8vh"}} />
+              <span className="skillsTitle">Github</span>
             </div>
             <div className="eachSkills">
-              <img src={git} alt="git" width={100} />
-              <span>Git</span>
+              <img src={git} alt="git" style={{width:"8vh"}} />
+              <span className="skillsTitle">Git</span>
             </div>
           </div>
         </div>
