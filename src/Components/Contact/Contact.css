@@ -34,3 +34,42 @@
   justify-content: space-evenly;
   width: 100%;
 }
+
+.outerContact {
+  height: 82vh;
+  padding-top: 5%;
+}
+
+.imageContact{
+  max-height: "450px"
+}
+
+.bigTable{
+  height: 60vh;
+}
+
+/* ------------------------- MEDIA QUERIES ------------------------- */
+
+/* ------------------------- 390 X 844 Iphone 12 Pro ------------------------- */
+@media (max-width: 390px) {
+  .contactItemsContainer {
+    flex-direction: column;
+  }
+  .contactWays {
+    width: 100%;
+    margin-left: 0%;
+  }
+  .eachTableRow {
+    height: 25px;
+  }
+  .imageContact{
+    max-height: 220px;
+  }
+  .outerContact{
+    height: 100%;
+  }
+  .bigTable{
+    height: 60%;
+    font-size: 18px;
+  }
+}

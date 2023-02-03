@@ -55,3 +55,19 @@
   color: rgb(255, 230, 221);
   transition: color 0.3s;
 }
+
+/* ------------------------- MEDIA QUERIES ------------------------- */
+
+/* ------------------------- 390 X 844 Iphone 12 Pro ------------------------- */
+@media (max-width: 390px) {
+  .tags {
+    font-size: 12px;
+    justify-content: center;
+    margin-right: 0vh;
+    width: 70%;
+  }
+  .myName{
+    margin-left: 0vh;
+    width: 30%;
+  }
+}

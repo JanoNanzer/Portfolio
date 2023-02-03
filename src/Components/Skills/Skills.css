@@ -1,58 +1,83 @@
-.skillsContainer{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    gap: 5px;
-    margin-bottom: 5%;
+.skillsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-bottom: 5%;
 }
 
-.eachSkills{
-    display: flex;
+.eachSkills {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 20%;
+  align-items: center;
+  box-shadow: 0px 8px 15px black;
+  border-radius: 3%;
+  height: 18vh;
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+}
+
+.eachSkills:hover {
+  box-shadow: 0px 8px 15px rgba(255, 255, 255, 0.048);
+  transition: 0.3s;
+  /* box-shadow: 0px 0px 0px rgba(255, 255, 255, 0); */
+}
+
+.scripting {
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+  margin-bottom: 2vh;
+}
+
+.scriptingSkills {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.scriptingTitle {
+  color: coral;
+  font-size: 4vh;
+  width: 80%;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 6vh;
+  margin-bottom: 5vh;
+  border-bottom: solid;
+  border-width: 1px;
+}
+
+.skillsTitle {
+  font-size: 90%;
+}
+
+.outerSkills{
+    height: 110vh;
+    padding-top: 6%
+}
+
+/* ------------------------- MEDIA QUERIES ------------------------- */
+
+/* ------------------------- 390 X 844 Iphone 12 Pro ------------------------- */
+@media (max-width: 390px) {
+  .skillsContainer {
+    width: 100%;
     flex-direction: column;
-    justify-content: space-evenly;
-    width: 20%;
-    align-items: center;
-    box-shadow: 0px 8px 15px black;
-    border-radius: 3%;
-    height: 18vh;
-    cursor: pointer;
-    text-decoration: none;
-    color: white;
-}
-
-.eachSkills:hover{
-    box-shadow: 0px 8px 15px rgba(255, 255, 255, 0.048);
-    transition: 0.3s;
-    /* box-shadow: 0px 0px 0px rgba(255, 255, 255, 0); */
-}
-
-.scripting{
-    display: flex;
-    flex-direction: column;
-    width: 33%;
-    margin-bottom: 2vh;
-}
-
-.scriptingSkills{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
-.scriptingTitle{
-    color: coral;
-    font-size: 4vh;
-    width: 80%;
-    display: flex;
-    justify-content: flex-start;
-    margin-left: 6vh;
-    margin-bottom: 5vh;
-    border-bottom: solid;
-    border-width: 1px;
-}
-
-.skillsTitle{
-    font-size: 90%;
+  }
+  .scripting{
+    width: 100%;
+  }
+  .scriptingTitle{
+    font-size: 30px;
+  }
+  .outerSkills{
+    height: 100%;
+    padding-top: 20%;
+  }
 }

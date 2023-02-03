@@ -24,7 +24,7 @@ const About = () => {
             technologies.
           </span>
         </div>
-        <Tilt style={{ width: "20%" }}>
+        <Tilt className="imageTilt" style={{ width: "20%" }}>
           <img src={avatar} alt="Avatar" style={{ maxHeight: "450px" }} />
         </Tilt>
       </div>

@@ -24,3 +24,16 @@
     align-items: center;
     justify-content: space-evenly;
 }
+
+/* ------------------------- MEDIA QUERIES ------------------------- */
+
+/* ------------------------- 390 X 844 Iphone 12 Pro ------------------------- */
+@media (max-width: 390px) {
+    .imageTilt {
+      display:none;
+    }
+    .aboutMe{
+        width: 100%;
+        align-items: center;
+    }
+  }

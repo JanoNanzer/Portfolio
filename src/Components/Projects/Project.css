@@ -1,16 +1,37 @@
-.projectsCards{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
+.projectsCards {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
-.projectsTitle{
-    color: coral;
-    font-size: 6vh;
-    width: 80%;
-    display: flex;
-    justify-content: flex-start;
-    margin-left: 12vh;
-    margin-bottom: 5vh;
+.projectsTitle {
+  color: coral;
+  font-size: 6vh;
+  width: 80%;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 12vh;
+  margin-bottom: 5vh;
+}
+.outerProjects{
+  height: 100vh;
+  padding-top: 6%
+}
+
+/* ------------------------- MEDIA QUERIES ------------------------- */
+
+/* ------------------------- 390 X 844 Iphone 12 Pro ------------------------- */
+@media (max-width: 390px) {
+  .projectsCards {
+    flex-direction: column;
+  }
+  .outerProjects{
+    height: 100%;
+  }
+  .projectsTitle{
+    margin-left: 0vh;
+    align-items: center;
+    justify-content: center;
+  }
 }

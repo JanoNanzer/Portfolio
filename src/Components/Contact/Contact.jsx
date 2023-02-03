@@ -11,15 +11,15 @@ import contact2 from "../../Assets/Contact/contact2.svg";
 
 const Contact = () => {
   return (
-    <div id="contact" style={{ height: "82vh", paddingTop: "5%" }}>
+    <div id="contact" className="outerContact">
       <span className="projectsTitle">Contact me</span>
       <div className="contactItemsContainer">
         <div className="contactWays">
-          <table style={{ height: "60vh" }}>
+          <table className="bigTable" style={{ height: "60vh" }}>
             {/* /////
             EMAIL
             ///// */}
-            <tr>
+            <tr className="eachTableRow">
               <td>
                 <AlternateEmailIcon />
               </td>
@@ -37,7 +37,7 @@ const Contact = () => {
             {/* /////
             Location
             ///// */}
-            <tr>
+            <tr className="eachTableRow">
               <td>
                 <LocationOnIcon />
               </td>
@@ -55,7 +55,7 @@ const Contact = () => {
             {/* /////
             Website
             ///// */}
-            <tr>
+            <tr className="eachTableRow">
               <td>
                 <LanguageIcon />
               </td>
@@ -72,7 +72,7 @@ const Contact = () => {
             {/* /////
             Linkedin
             ///// */}
-            <tr>
+            <tr className="eachTableRow">
               <td>
                 <LinkedInIcon />
               </td>
@@ -89,7 +89,7 @@ const Contact = () => {
             {/* /////
             Github
             ///// */}
-            <tr>
+            <tr className="eachTableRow">
               <td>
                 <GitHubIcon />
               </td>
@@ -106,7 +106,7 @@ const Contact = () => {
           </table>
         </div>
         <div>
-          <img src={contact1} alt="contact" style={{ maxHeight: "450px" }} />
+          <img src={contact1} alt="contact" className="imageContact" style={{ maxHeight: "450px" }} />
         </div>
       </div>
     </div>

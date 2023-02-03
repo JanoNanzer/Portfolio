@@ -119,3 +119,29 @@ html{
 ::-webkit-scrollbar-track {
   background-color: #000000;
 }
+
+/* ------------------------- MEDIA QUERIES ------------------------- */
+
+/* ------------------------- 390 X 844 Iphone 12 Pro ------------------------- */
+@media (max-width: 390px) {
+  .homeOuter {
+    flex-direction: column;
+  }
+  .fatherOuter {
+    padding-top: 0%;
+  }
+  .homeOuter {
+    width: 100%;
+  }
+  .introduce {
+    width: 100%;
+  }
+  .homeTitles {
+    font-size: 3vh;
+    align-items: center;
+    width: 100%;
+  }
+  .iconsContainer{
+    margin-top: 0vh;
+  }
+}
