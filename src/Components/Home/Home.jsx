@@ -52,21 +52,21 @@ const Home = () => {
                 target="blank"
                 className="iconsColors"
               >
-                <LinkedInIcon sx={{fontSize: "8vh"}}/>
+                <LinkedInIcon className="iconsMaterial"/>
               </a>
               <a
                 href="https://github.com/JanoNanzer"
                 target="blank"
                 className="iconsColors"
               >
-                <GitHubIcon sx={{fontSize: "8vh"}}/>
+                <GitHubIcon className="iconsMaterial"/>
               </a>
               <a
                 href="mailto:janonanzer@gmail.com"
                 target="blank"
                 className="iconsColors"
               >
-                <MailOutlineIcon sx={{fontSize: "8vh"}}/>
+                <MailOutlineIcon className="iconsMaterial"/>
               </a>
               {/* <a
                 href="mailto:janonanzer@gmail.com"

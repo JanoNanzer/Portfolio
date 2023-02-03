@@ -106,7 +106,7 @@ const Contact = () => {
           </table>
         </div>
         <div>
-          <img src={contact1} alt="contact" className="imageContact" style={{ maxHeight: "450px" }} />
+          <img src={contact1} alt="contact" className="imageContact"/>
         </div>
       </div>
     </div>

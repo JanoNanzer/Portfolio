@@ -120,15 +120,19 @@ html{
   background-color: #000000;
 }
 
+.iconsMaterial{
+  font-size: 8vh !important
+}
+
 /* ------------------------- MEDIA QUERIES ------------------------- */
 
 /* ------------------------- 390 X 844 Iphone 12 Pro ------------------------- */
-@media (max-width: 390px) {
+@media (max-width: 420px) {
   .homeOuter {
     flex-direction: column;
   }
   .fatherOuter {
-    padding-top: 0%;
+    padding-top: 5%;
   }
   .homeOuter {
     width: 100%;
@@ -142,6 +146,9 @@ html{
     width: 100%;
   }
   .iconsContainer{
-    margin-top: 0vh;
+    margin-top: 2vh;
+  }
+  .iconsMaterial{
+    font-size: 5vh !important;
   }
 }

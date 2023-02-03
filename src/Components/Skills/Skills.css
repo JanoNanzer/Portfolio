@@ -65,7 +65,7 @@
 /* ------------------------- MEDIA QUERIES ------------------------- */
 
 /* ------------------------- 390 X 844 Iphone 12 Pro ------------------------- */
-@media (max-width: 390px) {
+@media (max-width: 420px) {
   .skillsContainer {
     width: 100%;
     flex-direction: column;

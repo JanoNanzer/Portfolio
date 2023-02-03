@@ -22,7 +22,7 @@
 /* ------------------------- MEDIA QUERIES ------------------------- */
 
 /* ------------------------- 390 X 844 Iphone 12 Pro ------------------------- */
-@media (max-width: 390px) {
+@media (max-width: 420px) {
   .projectsCards {
     flex-direction: column;
   }
@@ -33,5 +33,6 @@
     margin-left: 0vh;
     align-items: center;
     justify-content: center;
+    width: 100%;
   }
 }
