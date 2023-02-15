@@ -28,6 +28,7 @@
   }
   .outerProjects{
     height: 100%;
+    padding-top: 25%;
   }
   .projectsTitle{
     margin-left: 0vh;

@@ -7,7 +7,7 @@ pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/$
 
 const Resume = () => {
   return (
-    <div id="resume" style={{ paddingTop: "5%" }}>
+    <div id="resume" style={{ paddingTop: "20%" }}>
       <div className="projectsTitle">
         <span>My Resumee</span>
       </div>
